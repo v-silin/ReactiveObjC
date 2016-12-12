@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target    = "9.0"
 
-  s.source = { git: "https://github.com/ReactiveCocoa/ReactiveObjC.git",
+  s.source = { git: "https://github.com/v-silin/ReactiveObjC.git",
                tag: s.version }
 
   s.source_files          = "ReactiveObjC/*.{h,m,d}",
